@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-win": "node_modules\\.bin\\nodemon.cmd --ignore '*.json'",
+    "dev-unix": "./node_modules/.bin/nodemon",
     "sync-db": "node ./scripts/createTables.js",
     "start": "node server.js"
   },
